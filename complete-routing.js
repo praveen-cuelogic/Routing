@@ -41,7 +41,7 @@ export class CompleteRouting extends Component {
             when={!this.state.loggedIn}
             message={(location) => {
               return location.pathname.startsWith("/user")
-                ? "Are you sure?"
+                ? "Are you sure? pg editing"
                 : true;
             }} /* message="Are you sure" */
           />
